@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>sign-in-form</title> 
+		     <link rel="stylesheet" href="cont.css"/>
+			 <link rel="stylesheet" href="css/bootstrap.min.css">
+			<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+			
+</head>
+	<body>
+	
+		<div class=" container">
+			<div class=" row mt-5 pt-5">
+			    <div>
+				 <button class="">  Multiple content</button>
+				</div>
+				<div class="finalResult mt-5">
+					<span  id="final" class="mt-5"><span>
+						
+				<div>
+		
+		     <div>
+		<div>
+				
+			
+	<script>
+		 let body=document.querySelector('body');
+		 let button=document.querySelector('button');
+		 
+		 let content=`<div class="content">
+			<h1>Best Car and Truck Poems</h1>
+			<p>In my line of work, I have to know a little about cars.
+			Enough at least to talk to a mechanic or body man without being laughed 
+			out of the shop. And enough to know what it is that’s broken on a car that’s more 
+			usefully descriptive than “that 
+			little red piece next to the black piece that kind of has a little curve in it.”</p>
+			
+		
+		</div>`
+		 
+		 
+		  let content1=`<div class="content1">
+			<h1>No  Old Silly Love Songs</h1>
+			<p>promise I will get your truck back
+				the red one we sold
+				after I accidentally drowned
+
+				it. That water was deeper than it looked.
+				I know who bought it—the guy.
+				He said he could fix it up.
+				I know where he lives. Not far.</p>
+			
+		
+		</div>`
+		  
+		  
+		   let content2=`<div class="content2">
+			<h1> When  a new Chevy in red</h1>
+			<p>we fell into the night
+          we fell into time
+
+           tugging at denim as he pushed towards the hood,  
+        those jeans never looked so good.
+
+                   — Taylor Burgin, from Casual: A Little Book of Jeans Poems & PhotosSo here are 21 great quotes to make you feel happy, content and blessed.</p>
+			
+		
+		</div>`
+		    
+			let content3=`<div class="content3">
+			<h1>SRV in the  Quick Stop</h1>
+			<p>No traffic,
+					light coming up
+					with the radio—
+					Lenny’s here, really here.
+					Do you cry
+					when you play her,
+					where the fret moves into the music box
+					I dance inside,
+					sometimes I risk it driving—
+					bow my head and shake
+					where the clear notes sound tenor up the neck,
+					bass in a tin can like a kick
+					oh my!
+					Margarine for my sweetheart, butter me—
+					whiskey’s too early, but those cigarettes
+					sleep in my heart like a snare vibrating
+					in the red rising sky like it’s all I’ve got le</p>
+			
+		
+		</div>`
+		    let array=[content,content1,content2,content3];
+		    
+		    button.addEventListener('click',colorchange)
+		     function colorchange(){
+			 let finalResult = document.getElementById('final')
+			 let check=parseInt(Math.random()*(array.length));
+		    change=Math.round(check);
+			
+			    finalResult.innerHTML = array[change];
+				finalResult.style.boxShadow="#EEEEEE 0px 36px 35px -30px"
+				finalResult.style.borderRadius="10px"
+				finalResult.style.background="#F94A29"
+				finalResult.style.color="#fff"
+		   
+			 
+			 
+			 }
+		 
+		 
+	
+		 
+		
+		
+		</script>
+	</body>
+	
+</html>
